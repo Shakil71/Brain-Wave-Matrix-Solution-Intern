@@ -10,9 +10,9 @@ def link(url):
             return True
 
     return False
-input_url = input("Please enter the URL to check for phishing: ")
+input_url = input("Enter the Url: ")
 
 if link(input_url):
-    print(f"The URL '{input_url}' might be a phishing link.")
+    print(f"This URL '{input_url}' might be a phishing link.")
 else:
-    print(f"The URL '{input_url}' is not flagged as a phishing link.")
+    print(f"This URL '{input_url}' is not a phishing link.")
